@@ -10,3 +10,4 @@ arn
 arns
 elasticloadbalancingv2
 cloudfront
+cooldown

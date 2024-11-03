@@ -51,6 +51,15 @@ export class AppServiceStack extends cdk.Stack {
       securityGroups: [appSecurityGroup],
       desiredCount: 1
     });
+
+    const scaling = service.autoScaleTaskCount({ maxCapacity: 2 });
+
+    scaling.scaleOnCpuUtilization('CpuScaling', {
+      targetUtilizationPercent: 70,
+      scaleInCooldown: cdk.Duration.minutes(5),
+      scaleOutCooldown: cdk.Duration.minutes(5)
+    });
+
     return service;
   }
 
