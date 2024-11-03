@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "useGitignore": true,
+  "caseSensitive": false,
+  "dictionaries": [
+    "typescript",
+    "node",
+    "html",
+    "css",
+    "bash",
+    "npm",
+    "filetypes",
+    "fonts",
+    "project",
+    "nodejs"
+  ],
+  "ignorePaths": ["package.json", "pnpm-lock.yaml"],
+  "dictionaryDefinitions": [
+    {
+      "name": "project",
+      "path": "./.cspell/project.txt",
+      "description": "Wordings specific to this project and will not be shared with other projects"
+    },
+    {
+      "name": "aws",
+      "path": "./.cspell/aws.txt",
+      "description": "Keywords specific to the AWS project, including the names of AWS services and the terms used within them"
+    },
+    {
+      "name": "nodejs",
+      "path": "./.cspell/nodejs.txt",
+      "description": "Keywords specific to the Node.js project, including the names of node_modules and the terms used within them"
+    }
+  ]
+}

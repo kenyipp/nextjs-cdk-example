@@ -1,0 +1,12 @@
+apigatewayv2
+certificatemanager
+codepipeline
+amazonaws
+codebuild
+apigateway
+dbname
+secretsmanager
+arn
+arns
+elasticloadbalancingv2
+cloudfront

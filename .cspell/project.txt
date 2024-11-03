@@ -1,0 +1,15 @@
+codecov
+favorited
+favoriting
+jwtid
+kenyip
+realworld
+signin
+uncategorized
+unfavorited
+unfavoriting
+unfollow
+unfollowed
+unfollowing
+unfollows
+kenyip
